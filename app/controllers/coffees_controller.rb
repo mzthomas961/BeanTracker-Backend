@@ -46,7 +46,7 @@ class CoffeesController < ApplicationController
 
     def coffee_params
         # params.require(:coffee).permit(:name, :image, :likes)
-        params.permit(:name)
+        params.permit(:name, :image)
     end
 
 end
