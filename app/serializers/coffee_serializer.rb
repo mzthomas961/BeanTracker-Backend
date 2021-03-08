@@ -1,3 +1,3 @@
 class CoffeeSerializer < ActiveModel::Serializer
-  attributes :id, :name
+  attributes :id, :name, :image
 end
