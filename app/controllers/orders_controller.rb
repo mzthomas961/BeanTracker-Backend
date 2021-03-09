@@ -46,6 +46,6 @@ class OrdersController < ApplicationController
 
     def order_params
         # params.require(:order).permit(:name, :image, :likes)
-        params.permit(:name, :image)
+        params.permit(:date, :note, :coffee_id, :user_id)
     end
 end
