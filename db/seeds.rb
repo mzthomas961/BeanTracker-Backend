@@ -6,6 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 matt = User.create(username: 'matt96')
+aaron = User.create(username: 'aaronm')
+eric = User.create(username:'coolguy420')
+
 coffees = [{
     name: "Cappucino",
     image: "https://coffeeatthree.com/wp-content/uploads/cappuccino-1a.jpg"
@@ -30,5 +33,27 @@ coffees = [{
 coffees.each do |coffee_hash|
    Coffee.create(coffee_hash)
 end
+ 
+orders = [{
+   date: "2020-12-20 08:00",
+   note: "Extra milk pleasse",
+   coffee_id: 1,
+   user_id:2
+},
+{
+   date: "2020-07-23 08:00",
+   note:"Soy milk",
+   coffee_id:3,
+   user_id:3,
+},
+{
+   date:"2020-09-08 08:00",
+   note:"If you give me dairy I will die",
+   coffee_id: 4,
+   user_id:1
+}]
 
+orders.each do |order_hash|
+   Order.create(order_hash)
+end
 puts "SEEDED!"
