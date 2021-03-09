@@ -38,13 +38,13 @@ orders = [{
    date: "2020-12-20 08:00",
    note: "Extra milk pleasse",
    coffee_id: 1,
-   user_id:2
+   user_id:1
 },
 {
    date: "2020-07-23 08:00",
    note:"Soy milk",
    coffee_id:3,
-   user_id:3,
+   user_id:1,
 },
 {
    date:"2020-09-08 08:00",
