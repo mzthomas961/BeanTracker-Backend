@@ -18,7 +18,7 @@ class OrdersController < ApplicationController
 
     def update
         @order = Order.find(params[:id])
-        @order.update(orders_params)
+        @order.update(order_params)
         render json: @order
     end
 
