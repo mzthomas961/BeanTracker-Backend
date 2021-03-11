@@ -35,19 +35,19 @@ coffees.each do |coffee_hash|
 end
  
 orders = [{
-   date: "2020-12-20 08:00",
+   date: "Tomorrow at 9",
    note: "Extra milk pleasse",
    coffee_id: 1,
    user_id:1
 },
 {
-   date: "2020-07-23 08:00",
+   date: "9 pm",
    note:"Soy milk",
    coffee_id:3,
    user_id:1,
 },
 {
-   date:"2020-09-08 08:00",
+   date:"8 AM",
    note:"If you give me dairy I will die",
    coffee_id: 4,
    user_id:1
